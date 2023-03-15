@@ -109,7 +109,7 @@ a{
 
 .main{
     display: flex;
-    justify-content: cneter;
+    justify-content: center;
     align-items: center;
 }
 
@@ -124,13 +124,17 @@ a{
     border: 2px solid red;
     background-color: white;
 
-
+    /* Placing the div */
     width: 30%;
     margin: 5% auto;
 
+    /* Working with inner elements */
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* Adding round corners */
+    border-radius: 40px;
 }
 .Biography p{
     margin: 20px;
@@ -144,6 +148,14 @@ a{
     height: 300px
 }
 
+
+
+/* Test */
+
+.highlight{
+    color:#DFFF00;
+    background-color: black;
+}
 
 
 
